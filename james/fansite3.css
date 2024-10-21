@@ -1,12 +1,69 @@
 * {
     margin:0;
     padding:0;
-    text-transform: none;
+    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-body, html {
+html, body {
     width:100%;
     height:100%;
+    background-color: blue;
+}
+
+body {
+    background-image: url(/james/images/background.png);
+    background-size:cover;
+}
+
+/* --- navigation --- */
+
+
+/* --- page accueil --- */
+/* 1ere partie */
+
+.first {
+    width:100%;
+    margin:10em auto 2em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    background-color: brown;
+}
+
+.logo {
+    background-color: aqua;
+}
+
+.logo img {
+    width: 50%;
+    object-fit: cover;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+
+.titre {
+    text-align: center;
+    background-color: red;
+}
+
+.titre h1 {
+    font-size:1.5em;
+    font-weight: 900;
+}
+
+/* 2eme partie */
+
+.theme {
+    background-color: blue;
+    width: 100%;
+    padding:2em;
+    display:flex;
+}
+
+.resume {
+    background-color: blueviolet;
 }
