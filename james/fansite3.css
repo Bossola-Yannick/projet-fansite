@@ -30,6 +30,8 @@
   flex-direction: column;
   gap: 1em;
   background-color: #283a7f;
+  border-bottom: 2px solid #ffd194;
+  box-shadow: 0 4px 0 #d86f12;
 }
 
 .logo-geant img {
@@ -50,13 +52,11 @@
   padding-bottom: 2em;
 }
 
-.box {
+/* .box {
   width: 100%;
   height: 100vh;
   background-color: #1f294d;
-  border-top: 4px solid #d86f12;
-  box-shadow: 0 -2px 0 #ffd194;
-}
+} */
 
 /* PAGE ACCUEIL */
 /* 2eme partie */
