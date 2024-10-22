@@ -4,35 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fansite1</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../nav.css" />
   </head>
   <body>
-    <header>
+    <header class="container-left">
       <div class="logo">
-        <img src="#" alt="logo de notre site" />
+        <a href="../index.html">
+          <img
+            src="../images/logo.png"
+            alt="logo de notre site"
+            class="logo-site"
+          />
+        </a>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="./fansite1.html" target="_blank">accueil</a>
-          </li>
-
-          <li>
-            <a href="./histoire.html" target="_blank">Histoire</a>
-          </li>
-          <li>
-            <a href="./photos.html" target="_blank">Photos</a>
-          </li>
-          <li><a href="./liens.html" target="_blank">Lien autres sites</a></li>
+      <nav class="nav-bar">
+        <ul class="nav-bar-list">
+          <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
+          <!-- ma partie -->
+          <li class="nav-bar-lien"><a href="./histoire.html">Histoire</a></li>
+          <li class="nav-bar-lien"><a href="./photos.html">Photos</a></li>
+          <li class="nav-bar-lien"><a href="./liens.html">Codex</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <!-- je code ici -->
-      <h1 class="title">Tyrande</h1>
-      <!-- image background titre -->
+    <main class="container-right">
+      <h1 class="title">Tyrande Murmevent</h1>
+      <!-- image en fond d'écran du titre -->
+      <div class="titre-photo">
+        <img src="./images/background-title.jpg" alt="paysage-elfique" />
+      </div>
 
       <section class="presentation">
         <h2 class="presentation-titre">Présentation</h2>
+        <div class="presentation-photo">
+          <img src="./images/tyrande-presentation.jpg" alt="portrait-tyrande" />
+        </div>
         <ul class="presentation-liste">
           <li class="presentation-liste-item">
             <p class="presentation-text">
@@ -47,7 +54,8 @@
 
           <li class="presentation-liste-item">
             <p class="presentation-text">
-              <span> Affiliation:</span> Alliance, Soeures d'Elune, Sentinelles
+              <span> Affiliation:</span> <a href="./liens.html">Alliance</a>,
+              Sœur d'Elune , Sentinelles
             </p>
           </li>
 
@@ -59,7 +67,8 @@
           </li>
           <li class="presentation-liste-item">
             <p class="presentation-text">
-              <span class="presentation-subtile">Localisation:</span> Ombreterre
+              <span class="presentation-subtile">Localisation:</span>
+              <a href="./liens.html">Ombreterre</a>
             </p>
           </li>
           <li class="presentation-liste-item">
