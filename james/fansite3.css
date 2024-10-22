@@ -30,8 +30,8 @@ html, body {
 
 /* --- navigation --- */
 
-header {
-    background-color: blue;
+.logo img {
+    border:2px solid #fff;
 }
 
 /* --- page accueil --- */
@@ -70,7 +70,7 @@ header {
     height:100vh;
     background-color: #18203f;
     border-top:4px solid #D86F12;
-    outline:2px solid #FFD194;
+    box-shadow: 0 -2px 0 #FFD194;
 }
 
 /* PAGE ACCUEIL */
@@ -91,14 +91,14 @@ header {
     display: flex;
     flex-direction: column;
     gap:1em;
-    padding:1em 0;
-    margin:2em auto;
+    padding:1em 0 3em;
     text-align: justify;
+    border-bottom:2px solid #FFD194;
 }
 
 .text1 {
     text-align: center;
-    margin: 6em auto 1em;
+    margin: 3em auto 1em;
 }
 
 .opus {
