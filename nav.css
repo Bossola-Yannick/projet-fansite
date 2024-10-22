@@ -48,6 +48,9 @@ body {
   margin: 1rem auto;
   overflow: hidden;
 }
+.container-picture {
+  width: 50%;
+}
 .picture {
   border-radius: 5rem 0 0 5rem;
   height: 100%;
