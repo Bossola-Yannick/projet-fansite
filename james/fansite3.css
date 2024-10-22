@@ -1,0 +1,202 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color: #fff;
+}
+
+/* texte forme/style */
+
+.bold {
+    font-size: large;
+    font-weight: 600;
+}
+
+.indent {
+    padding-left: 1.5em;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+/* --- navigation --- */
+
+.logo img {
+    border:2px solid #fff;
+}
+
+/* PAGE ACCUEIL */
+/* 1ere partie */
+
+.first {
+    width:100%;
+    margin:0 auto;
+    padding-top:4em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    background-color: #283A7F;
+}
+
+.logo-geant img {
+    width: 50%;
+    object-fit: cover;
+    margin:2em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    filter:invert(1);
+}
+
+.titre {
+    text-align: center;
+    color: #12182d;
+    font-size: 1.5em;
+    padding-bottom:2em;
+}
+
+.box {
+    width: 100%;
+    height:100vh;
+    background-color: #1f294d;
+    border-top:4px solid #D86F12;
+    box-shadow: 0 -2px 0 #FFD194;
+}
+
+/* PAGE ACCUEIL */
+/* 2eme partie */
+
+.section1 { 
+    width: 80%;
+    padding:3em;
+    margin:2em auto;
+    background-color: #efefef;
+    border: 2px solid #3b4e95 ;
+}
+
+.sous-titre {
+    margin-bottom: 1em;
+    color:#D86F12;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding:1em 0 3em;
+    text-align: justify;
+    border-bottom:2px solid #FFD194;
+}
+
+.text1 {
+    text-align: center;
+    margin: 3em auto 1em;
+}
+
+.opus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opus ul {
+    width: 70%;
+    text-align: center;
+}
+
+.opus ul li {
+    background-color: #f6f6f6;
+    color:#6b6b6b;
+    margin-top:1em;
+    padding:0.5em 0.2em;
+    border:1px solid #e0e0e0;
+    border-radius: 20px;
+}
+
+.opus ul li:hover {
+    color:#D86F12;
+    font-weight:600;
+}
+
+/* PAGE 2 - MODE DE JEU */
+
+.equipe, .premier-classic {
+    width: 100%;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding:0 2em;
+    text-align: center;
+}
+
+.equipe ul, .premier-classic ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3em;
+}
+
+.equipe li {
+    font-size:small;
+}
+
+.equipe img {
+    width: 60px;
+    margin-top:1em;
+}
+
+.classic img {
+    width:50%;
+    margin:3em auto 0;
+}
+
+.premier img {
+    width: 35%;
+    margin:1em auto 0;
+}
+
+.premier-classic span {
+    display: flex;
+    align-items: center;
+}
+
+.terro, .counter {
+    padding:1em;
+    margin-top:1em;
+    width:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:0 10px 0 10px;
+}
+
+.premier, .classic {
+    padding:1em;
+    margin-top:1em;
+    width:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+}
+
+.terro {
+    color:#695D4B;
+    background-color: #cbbe98 ;
+    border: 2px solid #695D4B;
+}
+
+.counter {
+    color:#30404A;
+    background-color: #b7cad7 ;
+    border: 2px solid #30404A;
+}
