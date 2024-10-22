@@ -34,7 +34,7 @@ body {
 .container-right {
   margin-left: 19rem;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   padding: 2rem 0;
   background-color: rgb(36, 36, 71);
 }
@@ -47,6 +47,9 @@ body {
   max-height: 22rem;
   margin: 1rem auto;
   overflow: hidden;
+}
+.container-picture {
+  width:50%;
 }
 .picture {
   border-radius: 5rem 0 0 5rem;
