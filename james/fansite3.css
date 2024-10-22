@@ -68,7 +68,7 @@ html, body {
 .box {
     width: 100%;
     height:100vh;
-    background-color: #18203f;
+    background-color: #1f294d;
     border-top:4px solid #D86F12;
     box-shadow: 0 -2px 0 #FFD194;
 }
@@ -77,11 +77,11 @@ html, body {
 /* 2eme partie */
 
 .section1 { 
-    background-color: red;
-    width: 90%;
-    padding:2em;
+    width: 80%;
+    padding:3em;
     margin:2em auto;
-    color:#fff;
+    background-color: #efefef;
+    border: 2px solid #3b4e95 ;
 }
 
 .sous-titre {
@@ -110,15 +110,22 @@ html, body {
 }
 
 .opus ul {
-    width: 35%;
+    width: 70%;
     text-align: center;
 }
 
 .opus ul li {
-    background-color: #2b396e;
+    background-color: #f6f6f6;
+    color:#6b6b6b;
     margin-top:1em;
     padding:0.5em 0.2em;
+    border:1px solid #e0e0e0;
     border-radius: 20px;
+}
+
+.opus ul li:hover {
+    color:#D86F12;
+    font-weight:600;
 }
 
 /* PAGE 2 - MODE DE JEU */
@@ -129,7 +136,6 @@ html, body {
     box-sizing: border-box;
     padding:0 2em 2em;
     text-align: center;
-    background-color: blue;
 }
 
 .equipe ul, .premier-classic ul {
@@ -163,10 +169,6 @@ html, body {
     align-items: center;
 }
 
-.equipe h4 {
-    color: #fff;
-}
-
 .terro, .counter {
     padding:1em;
     margin-top:1em;
@@ -188,11 +190,13 @@ html, body {
 }
 
 .terro {
+    color:#695D4B;
     background-color: #cbbe98 ;
     border: 2px solid #695D4B;
 }
 
 .counter {
+    color:#30404A;
     background-color: #b7cad7 ;
     border: 2px solid #30404A;
 }
