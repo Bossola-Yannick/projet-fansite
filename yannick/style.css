@@ -42,19 +42,32 @@ img {
 }
 .story-description {
   width: 60%;
-  color: aliceblue;
 }
-.story-title {
+.sub-title {
   font-size: 1.5rem;
   font-weight: 700;
+  color: aliceblue;
   margin-bottom: 0.7rem;
 }
-.story-text {
+.text {
   font-size: 1.2rem;
+  color: aliceblue;
 }
 .dead {
   font-size: 1.8rem;
   color: red;
   text-decoration: underline;
   text-transform: uppercase;
+}
+/*----- PAGE DEVELOPPEMENT PROJECT ZOMBOID ---------*/
+.developpement {
+  padding: 3rem;
+}
+.list-item {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+.spifflo {
+  text-align: center;
+  margin-top: 3rem;
 }
