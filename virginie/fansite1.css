@@ -21,8 +21,12 @@ h2 {
   color: aliceblue;
   font-size: 2rem;
   margin-bottom: 3rem;
+  padding-left: 2rem;
 }
-
+.tyrande {
+  padding-left: 2rem;
+  text-align: center;
+}
 .description-liste {
   margin-top: 2rem;
 }
