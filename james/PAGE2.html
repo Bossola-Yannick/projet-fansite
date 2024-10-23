@@ -3,19 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page - mode de jeu</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../nav.css" />
     <link rel="stylesheet" href="fansite3.css" />
   </head>
-  <body>
-    <link rel="stylesheet" href="../reset.css" />
-    <link rel="stylesheet" href="../nav.css" />
-    <link rel="stylesheet" href="fansite3.css" />
-  </head>
+
   <body>
     <!-- barre nav -->
     <header class="container-left">
@@ -32,7 +25,7 @@
         <ul class="nav-bar-list">
           <li class="nav-bar-lien"><a href="./fansite3.html">Home</a></li>
           <li class="nav-bar-lien"><a href="./PAGE2.html">Mode de jeu</a></li>
-          <li class="nav-bar-lien"><a href="#">Maps</a></li>
+          <li class="nav-bar-lien"><a href="./PAGE3.html">Maps</a></li>
           <li class="nav-bar-lien"><a href="#">Skins</a></li>
           <li class="nav-bar-lien"><a href="#">Esport Event</a></li>
         </ul>
@@ -40,123 +33,122 @@
     </header>
 
     <main class="container-right">
-      <!-- TITRE -->
-      <div class="logo">
-        <a href="../index.html">
-          <img
-            src="./images/logonav.png"
-            alt="logo de notre site"
-            class="logo-site"
-          />
-        </a>
-      </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-lien"><a href="./fansite3.html">Home</a></li>
-          <li class="nav-bar-lien"><a href="./PAGE2.html">Mode de jeu</a></li>
-          <li class="nav-bar-lien"><a href="#">Maps</a></li>
-          <li class="nav-bar-lien"><a href="#">Skins</a></li>
-          <li class="nav-bar-lien"><a href="#">Esport Event</a></li>
-        </ul>
-      </nav>
-    </header>
+            <!-- TOP PAGE -->
 
-    <main class="container-right">
-      <!-- TITRE -->
+            <section class="logo-geant">
+            </section>
 
-      <section class="first">
-        <div class="logo-geant">
-          <img src="/james/images/logoaccueil.png" />
+      <!-- PARTIE 1 comp -->
+
+      <section class="section-box">
+
+        <!-- sous titre -->
+        <div class="sous-titre upp bold">
+          <h3>Compétition (Premier et Classic)</h3>
         </div>
-      <div class="first">
-        <div class="logo-geant">
-          <img src="/james/images/logoaccueil.png" />
+        <!-- box equipe -->
+        <article class="text">          
+          <div class="equipe">
+            <span><p>Deux équipes de 5 joueurs s'opposent :</p></span>
+            <ul>
+              <div class="terro">
+                <li>Les <span class="bold">terroristes</span></li>
+                <span><img src="/james/images/tlogo.png" /></span>
+              </div>
+              <div class="counter">
+                <li>Les <span class="bold">anti-terroristes</span></li>
+                <span><img src="/james/images/ctlogo.png" /></span>
+              </div>
+            </ul>
+          </div>
+
+          <!-- premier / classic -->
+
+          <article class="premier-classic">
+            <ul>
+              <div class="premier">
+                <div class="sous-titre upp bold"><h3>Premier</h3></div>
+                <li>
+                  Le mode Premier est le principal mode compétitif dans CS2.
+                  Lors de la recherche d’un match, les joueurs entrent d’abord
+                  dans une phase de veto, où ils bannissent tour à tour des
+                  cartes du pool de cartes actif. À la phase de choix et de
+                  bannissement des cartes, une carte reste, et le match se joue
+                  sur cette carte. L'équipe qui a banni les cartes en second
+                  peut choisir de quel côté jouer. Gagner un match vous rapporte
+                  des points ELO, qui impactent directement votre position dans
+                  les classements. À l'inverse, perdre vous fait perdre des
+                  points.
+                </li>
+                <!-- si temps, essayer de faire les ranks en html/css au lieu de l'image -->
+                <span><img src="/james/images/rankscs2.png" /></span>
+              </div>
+              <div class="classic">
+                <div class="sous-titre upp bold"><h3>Classic</h3></div>
+                <li>
+                  Le mode Compétitif est le système de matchmaking classique.
+                  Ici, vous trouverez des rangs familiers, attribués séparément
+                  pour chaque carte. Pour obtenir un rang, vous devez obtenir
+                  dix victoires sur une carte spécifique. Vous pouvez choisir
+                  des cartes dans la liste disponible.
+                </li>
+                <span><img src="/james/images/rankslogo.png" /></span>
+              </div>
+            </ul>
+          </article>
+        </article>
+
+        <!-- PARTIE 2 dm -->
+        <div class="sous-titre upp bold">
+          <h3>Match à Mort ( aussi appelé Deathmatch ou FFA)</h3>
         </div>
 
-        <div class="titre upp bold">
-          <h1><i>Mode de jeu</i></h1>
+        <article class="text">
+          <p class="indent">
+            Le mode Deathmatch de CS2 est un mode de jeu très dynamique conçu
+            pour aider les joueurs à améliorer leur précision de tir, leur temps
+            de réaction et leurs compétences de jeu en général. Dans un mode
+            Deathmatch typique, l'objectif est simple : accumuler autant de
+            victimes que possible dans un délai déterminé. Contrairement aux
+            autres modes, il n'y a pas d'objectifs tels que la pose de bombes ou
+            le sauvetage d'otages ; tout est une question de prouesses au
+            combat.
+          </p>
+        </article>
+
+        <!--  PARTIE 3 Wingman -->
+        <div class="sous-titre upp bold">
+          <h3>Wingman</h3>
         </div>
+        <article class="text">
+          <p class="indent">
+            Le mode CS2 Wingman se distingue par son format 2v2, différent de la
+            configuration traditionnelle 5v5 dans les matchs CS2 standard. Ce
+            format nécessite une combinaison de compétences individuelles et de
+            travail d'équipe. Les matchs CS2 Wingman se jouent sur des cartes
+            plus petites, se concentrant souvent sur un seul site de bombe. Ce
+            format de match CS2 Wingman offre une expérience de jeu rapide et
+            stratégique.
+          </p>
+        </article>
+
+        <div class="sous-titre upp bold">
+          <h3>Course à l'armement</h3>
+        </div>
+        <article class="text">
+          <p class="indent">
+            Le mode CS2 Wingman se distingue par son format 2v2, différent de la
+            configuration traditionnelle 5v5 dans les matchs CS2 standard. Ce
+            format nécessite une combinaison de compétences individuelles et de
+            travail d'équipe. Les matchs CS2 Wingman se jouent sur des cartes
+            plus petites, se concentrant souvent sur un seul site de bombe. Ce
+            format de match CS2 Wingman offre une expérience de jeu rapide et
+            stratégique.
+          </p>
+
+
       </section>
-        <div class="titre upp bold">
-          <h1><i>Mode de jeu</i></h1>
-        </div>
-      </div>
-
-      <!-- PARTIE 1 comp -->
-      <!-- PARTIE 1 comp -->
-
-      <div class="box">
-        <div class="section1">
-          <div class="sous-titre upp bold">
-            <h3>Compétition (Premier et Classic)</h3>
-          </div>
-          <div class="text">
-            <div class="equipe">
-              
-              <span><h4>Deux équipes de 5 joueurs s'opposent :</h4></span>
-              <ul>
-                <div class="terro">
-                  <li>Les <span class="bold">terroristes</span></li>
-                  <span><img src="/james/images/tlogo.png" /></span>
-                </div>
-                <div class="counter">
-                  <li>Les <span class="bold">anti-terroristes</span></li>
-                  <span
-                    ><img src="/james/images/ctlogo.png"
-                  /></span>
-                </div>
-              </ul>
-            </div>
-
-<!-- premier / classic -->
-
-            <div class="premier-classic">
-              <ul>
-                <div class="premier">
-                  <div class="sous-titre upp bold"><h3>Premier</h3></div>
-                  <li>
-                    Le mode Premier est le principal mode compétitif dans CS2.
-                    Lors de la recherche d’un match, les joueurs entrent d’abord
-                    dans une phase de veto, où ils bannissent tour à tour des
-                    cartes du pool de cartes actif. À la phase de choix et de
-                    bannissement des cartes, une carte reste, et le match se
-                    joue sur cette carte. L'équipe qui a banni les cartes en
-                    second peut choisir de quel côté jouer. Gagner un match vous
-                    rapporte des points ELO, qui impactent directement votre
-                    position dans les classements. À l'inverse, perdre vous fait
-                    perdre des points.
-                  </li>
-                  <!-- si temps, essayer de faire les ranks en html/css au lieu de l'image -->
-                  <span><img src="/james/images/rankscs2.png" /></span>
-                </div>
-                <div class="classic">
-                  <div class="sous-titre upp bold"><h3>Classic</h3></div>
-                  <li>
-                    Le mode Compétitif est le système de matchmaking classique.
-                    Ici, vous trouverez des rangs familiers, attribués
-                    séparément pour chaque carte. Pour obtenir un rang, vous
-                    devez obtenir dix victoires sur une carte spécifique. Vous
-                    pouvez choisir des cartes dans la liste disponible.
-                  </li>
-                  <span><img src="/james/images/rankslogo.png" /></span>
-                </div>
-              </ul>
-            </div>
-          </div>
-
-          <!-- PARTIE 2 dm -->
-          <!-- PARTIE 2 dm -->
-
-          <div class="text">
-            <div class="equipe"></div>
-          </div>
-        </div>
-      </div>
     </main>
-
-    <!-- <footer></footer> -->
-  </body>
     <!-- <footer></footer> -->
   </body>
 </html>
-
