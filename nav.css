@@ -16,7 +16,7 @@ body {
 .container-left {
   position: fixed;
   width: 15%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(36, 36, 71);
   color: aliceblue;
   text-align: center;
