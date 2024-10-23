@@ -32,8 +32,8 @@
   background-color: #283A8A;
   box-sizing: border-box;
   background-image: url(./images/topaccueil.png);
-  background-position: center;
-  background-size:contain;
+  background-position: top center;
+  background-size:cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -69,13 +69,13 @@
   width: 80%;
   padding: 3em;
   margin: 2em auto;
-  background-color: #efefef;
+  background-color: #ECECEC;
   border: 2px solid #3b4e95;
   box-sizing: border-box;
 }
 
 .sous-titre {
-  margin: 1em 0;
+  margin: 0.5em 0;
   color: #d86f12;
 }
 
@@ -150,13 +150,8 @@
 }
 
 .classic img {
-  width: 50%;
+  width: 80%;
   margin: 3em auto 0;
-}
-
-.premier img {
-  width: 35%;
-  margin: 1em auto 0;
 }
 
 .premier-classic span {
@@ -198,9 +193,49 @@
   border: 2px solid #30404a;
 }
 
-/* PAGE MAPS */
+/* RANK ELO BOX */
 
-.maps {
+.box-rank {
   width: 100%;
-  background-image: url(./images/cs2-maps.jpg);
+  margin-top:1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:4px;
 }
+
+.box-rank p {
+  margin: auto;
+  padding: 0.3em;
+}
+
+.box-rank span {
+  width: 80%;
+  border-radius: 3em;
+}
+
+.gray {
+  background-color: #B0C4D8 ;
+}
+.light-blue {
+  background-color: #5E98D9 ;
+}
+.blue {
+  background-color: #4B69FE ;
+}
+.purple {
+  background-color: #8845FF ;
+}
+.pink {
+  background-color: #B12FC1 ;
+}
+.red {
+  background-color: #EB4C4B ;
+}
+.yellow {
+  background-color: #F1AE35 ;
+}
+
+
+
+
