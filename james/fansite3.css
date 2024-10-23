@@ -23,48 +23,55 @@
   padding-top:0;
 }
 
-/* PAGE ACCUEIL */
-/* 1ere partie */
+/* TOP PAGE */
 
-.first {
+.logo-geant {
   width: 100%;
+  height:300px;
   margin: 0 auto;
-  padding-top: 4em;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  background-color: #283a7f;
-  border-bottom: 2px solid #ffd194;
-  box-shadow: 0 4px 0 #d86f12;
-}
-
-.logo-geant img {
-  width: 50%;
-  object-fit: cover;
-  margin: 2em auto;
+  background-color: #283A8A;
+  box-sizing: border-box;
+  background-image: url(./images/topaccueil.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  filter: invert(1);
+  border-bottom: 2px solid #ffd194;
+  box-shadow: 0 3px 0 #d86f12;
 }
+
+/* .logo-geant img {
+  display: block;
+  width: 400px;
+  padding-bottom: 4px;
+  filter: invert(1);
+}  */
+
+/* hr {
+  margin:0 auto;
+  border-bottom: 2px solid #ffd194;
+  box-shadow: 0 3px 0 #d86f12;
+} */
+
+/* PAGE ACCUEIL */
 
 .titre {
   text-align: center;
   color: #12182d;
   font-size: 1.5em;
   padding-bottom: 2em;
+  font-style: italic;
 }
 
-/* PAGE ACCUEIL */
-/* 2eme partie */
-
-.section-1 {
+.section-box {
   width: 80%;
   padding: 3em;
   margin: 2em auto;
   background-color: #efefef;
   border: 2px solid #3b4e95;
+  box-sizing: border-box;
 }
 
 .sous-titre {
@@ -191,4 +198,9 @@
   border: 2px solid #30404a;
 }
 
-/* deathmatch */
+/* PAGE MAPS */
+
+.maps {
+  width: 100%;
+  background-image: url(./images/cs2-maps.jpg);
+}
