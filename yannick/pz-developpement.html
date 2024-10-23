@@ -10,6 +10,7 @@
   </head>
   <body>
     <header class="container-left">
+      <!-- emplacement du logo -->
       <div class="logo">
         <a href="../index.html">
           <img
@@ -19,23 +20,28 @@
           />
         </a>
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
-          <li class="nav-bar-lien">
-            <a href="./pz-index.html">Accueil Project Zomboid</a>
-          </li>
-          <li class="nav-bar-lien">
-            <a href="./pz-histoire.html">Histoire</a>
-          </li>
-
-          <li class="nav-bar-lien"><a href="#">Evenements</a></li>
-        </ul>
-      </nav>
+      <!-- DEBUT nav-bar -->
+      <div class="nav-bar-bg">
+        <!-- DEBUT menu burger -->
+        <label for="bg-menu"> ☰ </label>
+        <input type="checkbox" id="bg-menu" />
+        <!-- FIN menu burger -->
+        <nav class="nav-bar">
+          <ul class="nav-bar-list">
+            <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
+            <li class="nav-bar-lien">
+              <a href="./pz-index.html">Project Zomboid</a>
+            </li>
+            <li class="nav-bar-lien">
+              <a href="./pz-histoire.html">Histoire</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="container-right">
       <section class="developpement">
-        <h2 class="sub-title">Développement</h2>
+        <h1 class="sub-title">Développement</h1>
         <ul class="list">
           <li class="list-item">
             <p class="text">
@@ -67,7 +73,7 @@
               Le 20 décembre 2021, la "Build 41" a été implantée, retravaillant
               en profondeur le système d'animations du jeu et portant de
               nombreux ajouts7. Cette version a connu un succès relatif et a
-              permis au jeu de bénéficier d'une popularité nouvelle8.
+              permis au jeu de bénéficier d'une popularité nouvelle.
             </p>
           </li>
           <li class="list-item">
