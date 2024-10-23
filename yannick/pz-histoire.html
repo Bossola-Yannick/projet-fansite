@@ -10,6 +10,7 @@
   </head>
   <body>
     <header class="container-left">
+      <!-- emplacement du logo -->
       <div class="logo">
         <a href="../index.html">
           <img
@@ -19,19 +20,26 @@
           />
         </a>
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
-          <li class="nav-bar-lien">
-            <a href="./pz-index.html">Accueil Project Zomboid</a>
-          </li>
+      <!-- DEBUT nav-bar -->
+      <div class="nav-bar-bg">
+        <!-- DEBUT menu burger -->
+        <label for="bg-menu"> ☰ </label>
+        <input type="checkbox" id="bg-menu" />
+        <!-- FIN menu burger -->
+        <nav class="nav-bar">
+          <ul class="nav-bar-list">
+            <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
+            <li class="nav-bar-lien">
+              <a href="./pz-index.html">Project Zomboid</a>
+            </li>
 
-          <li class="nav-bar-lien">
-            <a href="./pz-developpement.html">Développement</a>
-          </li>
-          <li class="nav-bar-lien"><a href="#">Evenements</a></li>
-        </ul>
-      </nav>
+            <li class="nav-bar-lien">
+              <a href="./pz-developpement.html">Dates Importantes</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- FIN nav-bar-->
     </header>
     <main class="container-right">
       <section class="story-page">
