@@ -46,19 +46,6 @@
   box-shadow: 0 3px 0 #d86f12;
 }
 
-/* .logo-geant img {
-  display: block;
-  width: 400px;
-  padding-bottom: 4px;
-  filter: invert(1);
-}  */
-
-/* hr {
-  margin:0 auto;
-  border-bottom: 2px solid #ffd194;
-  box-shadow: 0 3px 0 #d86f12;
-} */
-
 /* PAGE ACCUEIL */
 
 .titre {
@@ -239,6 +226,64 @@
   background-color: #F1AE35 ;
 }
 
+/* PAGE MAPS */
 
+.all-maps {
+  padding: 2em 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap:2em;
+}
+
+.all-maps div {
+  width: 15em;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #ffffff;
+}
+
+.all-maps img {
+  width: 80%;
+}
+
+.ancient {
+  background-image: url(./images/maps/screen/anc.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.anubis {
+  background-image: url(./images/maps/screen/anubis.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.dust {
+  background-image: url(./images/maps/screen/dust2.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.inferno {
+  background-image: url(./images/maps/screen/inferno.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.nuke {
+  background-image: url(./images/maps/screen/nuke.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.overpass {
+  background-image: url(./images/maps/screen/overpass.jpg) ;
+  background-size: cover;
+  background-position: left;
+}
+.vertigo {
+  background-image: url(./images/maps/screen/vertigo.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
 
 
