@@ -343,9 +343,14 @@
 
 @media screen and (max-width: 601px) {
 
-.container-right {
-  margin:0;
-}
+  .container-right {
+    margin:0;
+  }
+
+  .bg-menu {
+    
+  }
+
 }
 
 @media screen and (max-width:550px) {

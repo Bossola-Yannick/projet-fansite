@@ -78,7 +78,7 @@ label,
 /*--------- MEDIA QUERIES ------------------*/
 
 /* -- media max-width 600px -- */
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 600px) {
   body {
     flex-direction: column;
   }
