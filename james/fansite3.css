@@ -56,7 +56,7 @@
 }
 
 .section-box {
-  width: 80%;
+  width: 90%;
   padding: 3em;
   margin: 2em auto;
   background-color: #ECECEC;
@@ -70,13 +70,12 @@
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 90%;
+  margin: auto;
   gap: 1em;
   padding: 1em 0 1.5em;
   margin-bottom:1em;
-  text-align: justify;
+  text-align: center;
   border-bottom: 2px solid #ffd194;
 }
 
@@ -92,7 +91,7 @@
 }
 
 .opus ul {
-  width: 70%;
+  width: 50%;
   text-align: center;
 }
 
@@ -106,20 +105,28 @@
 }
 
 .opus ul li:hover {
-  color: #d86f12;
+  color: #000000;
   font-weight: 600;
 }
+
+.evol {
+  margin-top:2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.evol img {
+  width:100%;
+  }
 
 /* PAGE 2 - MODE DE JEU */
 /* premier classic */
 
 .equipe,
 .premier-classic {
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0 2em;
-  text-align: center;
+  margin: auto;
 }
 
 .equipe ul,
@@ -286,4 +293,36 @@
   background-position: center;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 1024px) {
+  /* accueil */
+
+  .container-right {
+    margin-left: 21%;
+  }
+
+  .section-box {
+    width: 100%;
+    margin:2em 0;
+    padding: 1em;
+  }
+  
+  .opus ul {
+    width:90%
+  }
+
+/* page mode de jeu */
+
+
+/* page map */
+
+.all-maps div {
+  width: 100%;
+}
+.all-maps img {
+  width: 14em;
+}
+
+
+  }
