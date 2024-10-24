@@ -24,7 +24,6 @@ h2 {
   padding-left: 2rem;
 }
 .tyrande {
-  padding-left: 2rem;
   text-align: center;
 }
 .description-liste {
@@ -91,6 +90,7 @@ img {
 }
 .histoire-text {
   padding: 0.5rem 2rem 0.5rem 2rem;
+  /* background-color: rgb(246, 248, 247, 0.3); */
 }
 .histoire {
   background-size: cover;
