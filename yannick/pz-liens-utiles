@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Project Zomboid Histoire</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../nav.css" />
     <link rel="stylesheet" href="./style.css" />
@@ -30,13 +30,14 @@
           <ul class="nav-bar-list">
             <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
             <li class="nav-bar-lien">
-              <a href="./pz-histoire.html">Histoire</a>
+              <a href="./pz-index.html">Project Zomboid</a>
             </li>
+            <li class="nav-bar-lien">
+              <a href="./pz-index.html">Project Zomboid</a>
+            </li>
+
             <li class="nav-bar-lien">
               <a href="./pz-developpement.html">Dates Importantes</a>
-            </li>
-            <li class="nav-bar-lien">
-              <a href="./pz-liens-utiles">Liens Utiles</a>
             </li>
           </ul>
         </nav>
@@ -44,23 +45,27 @@
       <!-- FIN nav-bar-->
     </header>
     <main class="container-right">
-      <section class="page-top">
-        <div class="baniere">
-          <img
-            src="./images-y/pz-accueil.webp"
-            alt=" baniere project zomboid"
-          />
-        </div>
-        <div class="blood">
-          <img src="./images-y/blood-removebg.png" alt="coulée de sang" />
-        </div>
-      </section>
-      <section class="page-bottom">
-        <h1 class="title">Project Zomboid</h1>
-        <p class="slogan">L'histoire de votre mort</p>
-        <p class="slogan">. . .</p>
-        <p class="slogan">ou pas !!!</p>
-      </section>
+      <h2 class="sub-title">Quelques liens utiles</h2>
+      <ul>
+        <li>
+          <a href="https://map.projectzomboid.com/#11086x9137x10">
+            La map de Project Zomboid
+          </a>
+          <p>
+            Map interactive de la carte de base de <span>Project Zomboid</span>,
+            il existe une communauté de modeur qui l'on largement étofé.
+          </p>
+        </li>
+        <li>
+          <a href="https://map.projectzomboid.com/#11086x9137x10">
+            La map de Project Zomboid
+          </a>
+          <p>
+            Map interactive de la carte de base de <span>Project Zomboid</span>,
+            il existe une communauté de modeur qui l'on largement étofé.
+          </p>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
