@@ -1,0 +1,98 @@
+/* fond d'écran */
+.container-right {
+  background-image: url(./images/background-title.jpg);
+  color: aliceblue;
+}
+.logo {
+  margin-bottom: 2rem;
+}
+/* page d'acceuil / présentation Tyrande */
+
+h1 {
+  text-align: center;
+  font-family: "Lobster Two", sans-serif;
+  color: aqua;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-family: "Lobster Two", sans-serif;
+  color: aliceblue;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+.tyrande {
+  padding-left: 2rem;
+  text-align: center;
+}
+.description-liste {
+  margin-top: 2rem;
+}
+span {
+  color: aqua;
+  font-weight: bolder;
+}
+a {
+  color: rgb(246, 248, 247);
+}
+/* Page liens */
+.codex {
+  margin-left: 2rem;
+}
+.alliance {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.box-photo {
+  width: 30%;
+}
+img {
+  max-width: 100%;
+}
+.logo-alliance {
+  width: 15%;
+}
+.alliance-texte {
+  width: 60%;
+}
+.ombreterre {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+.ombreterre-texte {
+  width: 60%;
+}
+.malfurion {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+.malfurion-texte {
+  width: 60%;
+}
+.illidan {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+.illidan-texte {
+  width: 60%;
+}
+/*  Page Histoire */
+.histoire-text::first-letter {
+  color: aqua;
+  font-size: 130%;
+  padding-left: 3rem;
+}
+.histoire-text {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.histoire {
+  background-size: cover;
+  background-position: center;
+}

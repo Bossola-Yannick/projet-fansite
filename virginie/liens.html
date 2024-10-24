@@ -6,9 +6,17 @@
     <title>Fansite | Liens</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../nav.css" />
+    <link rel="stylesheet" href="./fansite1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="container-left">
+      <!-- emplacement du logo -->
       <div class="logo">
         <a href="../index.html">
           <img
@@ -18,28 +26,38 @@
           />
         </a>
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
-          <!-- ma partie -->
-          <li class="nav-bar-lien"><a href="./histoire.html">Histoire</a></li>
-          <li class="nav-bar-lien"><a href="./photos.html">Photos</a></li>
-          <li class="nav-bar-lien"><a href="./Codex.html">Liens</a></li>
-        </ul>
-      </nav>
+      <!-- DEBUT nav-bar -->
+      <div class="nav-bar-bg">
+        <!-- DEBUT menu burger -->
+        <label for="bg-menu"> ☰ </label>
+        <input type="checkbox" id="bg-menu" />
+        <!-- FIN menu burger -->
+        <nav class="nav-bar">
+          <ul class="nav-bar-list">
+            <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
+            <!-- ma partie -->
+            <li class="nav-bar-lien">
+              <a href="./fansite1.html">Tyrande Murmevent</a>
+            </li>
+            <li class="nav-bar-lien"><a href="./histoire.html">Histoire</a></li>
+
+            <li class="nav-bar-lien"><a href="./liens.html">Codex</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- FIN nav-bar-->
     </header>
     <main class="container-right">
       <!-- je code ici -->
-      <h1 class="title">Tyrande</h1>
+      <h1>Tyrande Murmevent</h1>
       <section class="codex">
         <article class="alliance">
-          <div class="alliance-logo">
+          <div class="logo-alliance">
             <!-- mettre logo en background title -->
             <img src="./images/logo-alliance.webp" alt="logo-alliance" />
           </div>
-
           <div class="alliance-texte">
-            <h2 class="codex-alliance">Alliance</h2>
+            <h2>Alliance</h2>
             <p class="codex-def">
               L'Alliance est l'une des deux principales factions mortelles
               d'Azeroth, l'autre étant la Horde. Elle regroupe de nombreux
@@ -50,9 +68,10 @@
               la Justice et l'Honneur.
             </p>
           </div>
-
-          <div class="ombreterre">
-            <h2 class="codex-ombreterre">Ombreterre</h2>
+        </article>
+        <article class="ombreterre">
+          <div class="ombreterre-texte">
+            <h2>Ombreterre</h2>
             <p class="codex-def">
               L'Ombreterre est un royaume cauchemardesque, en décomposition, des
               plans spirituels labyrinthiques où ont élu domicile les âmes des
@@ -60,6 +79,38 @@
               un monde entre les mondes dont l'équilibre fragile préserve la vie
               et la mort elles-mêmes.
             </p>
+          </div>
+          <div class="box-photo">
+            <img src="./images/ombreterre.webp" alt="carte-ombreterre" />
+          </div>
+        </article>
+        <article class="malfurion">
+          <div class="box-photo">
+            <img src="./images/malfurion.webp" alt="photo-malfurion" />
+          </div>
+          <div class="malfurion-texte">
+            <h2>Malfurion Hurlorage</h2>
+            <p class="codex-def">
+              Malfurion Hurlorage est un elfe de la nuit connu pour être le
+              premier druide mortel d'Azeroth. Il est le frère jumeau d'Illidan
+              Hurlorage et l'actuel co-dirigeant des elfes de la nuit aux cotés
+              de son épouse Tyrande Murmevent.
+            </p>
+          </div>
+        </article>
+        <article class="illidan">
+          <div class="illidan-texte">
+            <h2>Illidan Hurlorage</h2>
+            <p class="codex-def">
+              Illidan Hurlorage est un des Elfes de la nuit qui a marqué
+              l'histoire d'Azeroth de son empreinte. Frère jumeau du célèbre
+              Malfurion, Illidan est connu pour avoir crée et été le premier des
+              Chasseur de démons. Ses méthodes radicales lui ont valu la haine
+              de son peuple qui le considéra comme un traître.
+            </p>
+          </div>
+          <div class="box-photo">
+            <img src="./images/illidan.webp" alt="photo-illidan" />
           </div>
         </article>
       </section>

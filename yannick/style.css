@@ -77,8 +77,58 @@ img {
   margin-top: 3rem;
 }
 
+/*----- PAGE LIEN PROJECT ZOMBOID ---------*/
+.sub-title-link {
+  padding: 2rem 0;
+  text-align: center;
+}
+.list-lien-item {
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+.link-first {
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 2rem;
+  background-color: brown;
+}
+.text-link {
+  padding-top: 1rem;
+}
+.follow {
+  text-align: center;
+}
+.follow-title {
+  color: aliceblue;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.follow-list {
+  width: 50%;
+  margin: 0 auto;
+}
+.follow-list-item {
+  padding: 0.5rem;
+}
+.link-follow {
+  text-decoration: none;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 /*-------------- MEDIA QUERIES --------------*/
 
+/* -- media max-width 289px -- */
+@media screen and (max-width: 289px) {
+  .link-first {
+    padding: 0.5rem;
+  }
+}
 /* -- media max-width 420px -- */
 @media screen and (max-width: 601px) {
   .nav-bar {
