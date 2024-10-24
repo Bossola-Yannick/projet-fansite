@@ -124,17 +124,12 @@
 /* PAGE 2 - MODE DE JEU */
 /* premier classic */
 
-.equipe,
-.premier-classic {
-  margin: auto;
-}
-
-.equipe ul,
-.premier-classic ul {
+.equipe {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  gap: 3em;
 }
 
 .equipe li {
@@ -146,36 +141,15 @@
   margin-top: 1em;
 }
 
-.classic img {
-  width: 80%;
-  margin: 3em auto 0;
-}
-
-.premier-classic span {
-  display: flex;
-  align-items: center;
-}
-
 .terro,
 .counter {
   padding: 1em;
   margin-top: 1em;
-  width: 50vh;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 0 10px 0 10px;
-}
-
-.premier,
-.classic {
-  padding: 1em;
-  margin-top: 1em;
-  width: 60vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
 }
 
 .terro {
@@ -188,6 +162,41 @@
   color: #30404a;
   background-color: #b7cad7;
   border: 2px solid #30404a;
+}
+
+.premier-classic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premier-classic ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.premier-classic span {
+  display: flex;
+  align-items: center;
+}
+
+.classic img {
+  width: 80%;
+  margin: 3em auto 0;
+}
+
+.premier,
+.classic {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
 
 /* RANK ELO BOX */
@@ -312,9 +321,6 @@
     width:90%
   }
 
-/* page mode de jeu */
-
-
 /* page map */
 
 .all-maps div {
@@ -323,6 +329,39 @@
 .all-maps img {
   width: 14em;
 }
+}
 
-
+@media screen and (max-width: 750px) {
+     
+  .premier-classic ul {
+    flex-direction: column;
+    width: 100%;
+    gap:0;
   }
+  
+}
+
+@media screen and (max-width: 601px) {
+
+.container-right {
+  margin:0;
+}
+}
+
+@media screen and (max-width:550px) {
+
+  .equipe {
+    width: 100%;
+    flex-direction: column;
+  } 
+
+  .terro, .counter {
+    width: 100%;
+  }
+  
+  
+}
+  
+
+    
+  
