@@ -21,36 +21,54 @@
           />
         </a>
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-lien"><a href="./fansite3.html">Home</a></li>
-          <li class="nav-bar-lien"><a href="./PAGE2.html">Mode de jeu</a></li>
-          <li class="nav-bar-lien"><a href="./PAGE3.html">Maps</a></li>
-          <li class="nav-bar-lien"><a href="#">Skins</a></li>
-          <li class="nav-bar-lien"><a href="#">Esport Event</a></li>
-        </ul>
-      </nav>
+      <!-- DEBUT nav-bar -->
+      <div class="nav-bar-bg">
+        <!-- DEBUT menu burger -->
+        <label for="bg-menu"> ☰ </label>
+        <input type="checkbox" id="bg-menu" />
+        <!-- FIN menu burger -->
+        <nav class="nav-bar">
+          <ul class="nav-bar-list">
+            <li class="nav-bar-lien"><a href="../index.html">Accueil</a></li>
+            <li class="nav-bar-lien">
+              <a href="./fansite3.html">Counter-Strike</a>
+            </li>
+            <li class="nav-bar-lien">
+              <a href="./PAGE2.html">Mode de jeu</a>
+            </li>
+            <li class="nav-bar-lien">
+              <a href="./PAGE3.html">Maps</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- FIN nav-bar-->
     </header>
 
     <main class="container-right">
-            <!-- TOP PAGE -->
+<!-- TOP PAGE -->
 
-            <section class="logo-geant">
-            </section>
+      <section class="logo-geant"></section>
 
-      <!-- PARTIE 1 comp -->
+<!-- PARTIE 1 comp -->
 
       <section class="section-box">
+        <article class="titre upp bold">
+          <span><h1>Mode de jeu</h1></span>
+        </article>
 
-        <!-- sous titre -->
-        <div class="sous-titre upp bold">
-          <h3>Compétition (Premier et Classic)</h3>
+<!-- sous titre -->
+        <div class="sous-titre">
+          <h3>
+            <span class="upp bold">Compétition</span> (Premier et Classic)
+          </h3>
         </div>
-        <!-- box equipe -->
-        <article class="text">          
-          <div class="equipe">
-            <span><p>Deux équipes de 5 joueurs s'opposent :</p></span>
-            <ul>
+
+<!-- box equipe -->
+        <section class="text">
+          <span><p>Deux équipes de 5 joueurs s'opposent :</p></span>
+          <ul>
+            <div class="equipe">
               <div class="terro">
                 <li>Les <span class="bold">terroristes</span></li>
                 <span><img src="/james/images/tlogo.png" /></span>
@@ -59,96 +77,105 @@
                 <li>Les <span class="bold">anti-terroristes</span></li>
                 <span><img src="/james/images/ctlogo.png" /></span>
               </div>
-            </ul>
-          </div>
+            </div>
 
-          <!-- premier / classic -->
+<!-- premier / classic -->
 
-          <article class="premier-classic">
-            <ul>
-              <div class="premier">
-                <div class="sous-titre upp bold"><h3>Premier</h3></div>
-                <li>
-                  Le mode Premier est le principal mode compétitif dans CS2.
-                  Lors de la recherche d’un match, les joueurs entrent d’abord
-                  dans une phase de veto, où ils bannissent tour à tour des
-                  cartes du pool de cartes actif. À la phase de choix et de
-                  bannissement des cartes, une carte reste, et le match se joue
-                  sur cette carte. L'équipe qui a banni les cartes en second
-                  peut choisir de quel côté jouer. Gagner un match vous rapporte
-                  des points ELO, qui impactent directement votre position dans
-                  les classements. À l'inverse, perdre vous fait perdre des
-                  points.
-                </li>
-                <!-- si temps, essayer de faire les ranks en html/css au lieu de l'image -->
-                <span><img src="/james/images/rankscs2.png" /></span>
-              </div>
-              <div class="classic">
-                <div class="sous-titre upp bold"><h3>Classic</h3></div>
-                <li>
-                  Le mode Compétitif est le système de matchmaking classique.
-                  Ici, vous trouverez des rangs familiers, attribués séparément
-                  pour chaque carte. Pour obtenir un rang, vous devez obtenir
-                  dix victoires sur une carte spécifique. Vous pouvez choisir
-                  des cartes dans la liste disponible.
-                </li>
-                <span><img src="/james/images/rankslogo.png" /></span>
-              </div>
-            </ul>
-          </article>
-        </article>
+            <article class="premier-classic">
+              <ul>
+                <div class="premier">
+                  <div class="sous-titre upp bold"><h3>Premier</h3></div>
+                  <li>
+                    Le mode Premier est le principal mode compétitif. Lors de la
+                    recherche d’un match, les joueurs entrent d’abord dans une
+                    phase de veto, où ils bannissent tour à tour des cartes du
+                    pool de cartes actif. À la phase de choix et de bannissement
+                    des cartes, une carte reste, et le match se joue sur cette
+                    carte. L'équipe qui a banni les cartes en second peut
+                    choisir de quel côté jouer. Gagner un match vous rapporte
+                    des points ELO, qui impactent directement votre position
+                    dans les classements. À l'inverse, perdre vous fait perdre
+                    des points.
+                  </li>
+                  
+                  <div class="box-rank">
+                    <p class="rank-elo upp bold">Rank elo</p>
+                    <span class="gray"><p>< 4,999</p></span>
+                    <span class="light-blue"><p>5,000 - 9,999</p></span>
+                    <span class="blue"><p>10,000 - 14,999</p></span>
+                    <span class="purple"><p>15,000 - 19,999</p></span>
+                    <span class="pink"><p>20,000 - 24,999</p></span>
+                    <span class="red"><p>25,000 - 29,000</p></span>
+                    <span class="yellow"><p>30,000+</p></span>
+                  </div>
+                </div>
+                <div class="classic">
+                  <div class="sous-titre upp bold"><h3>Classic</h3></div>
+                  <li>
+                    Le mode Compétitif est le système de matchmaking classique.
+                    Ici, vous trouverez des rangs familiers, attribués
+                    séparément pour chaque carte. Pour obtenir un rang, vous
+                    devez obtenir dix victoires sur une carte spécifique. Vous
+                    pouvez choisir des cartes dans la liste disponible.
+                  </li>
+                  <span><img src="/james/images/rankslogo.png" /></span>
+                </div>
+              </ul>
+            </article>
+          </section>
 
-        <!-- PARTIE 2 dm -->
-        <div class="sous-titre upp bold">
-          <h3>Match à Mort ( aussi appelé Deathmatch ou FFA)</h3>
-        </div>
+<!-- PARTIE 2 dm -->
+            <div class="sous-titre">
+              <h3>
+                <span class="upp bold">Match à Mort</span> (aussi appelé
+                Deathmatch ou Free For All)
+              </h3>
+            </div>
 
-        <article class="text">
-          <p class="indent">
-            Le mode Deathmatch de CS2 est un mode de jeu très dynamique conçu
-            pour aider les joueurs à améliorer leur précision de tir, leur temps
-            de réaction et leurs compétences de jeu en général. Dans un mode
-            Deathmatch typique, l'objectif est simple : accumuler autant de
-            victimes que possible dans un délai déterminé. Contrairement aux
-            autres modes, il n'y a pas d'objectifs tels que la pose de bombes ou
-            le sauvetage d'otages ; tout est une question de prouesses au
-            combat.
-          </p>
-        </article>
+            <article class="text">
+              <p class="indent">
+                Le mode Deathmatch est un mode de jeu très dynamique conçu pour
+                aider les joueurs à améliorer leur précision de tir, leur temps
+                de réaction et leurs compétences de jeu en général. Dans un mode
+                Deathmatch typique, l'objectif est simple : accumuler autant de
+                victimes que possible dans un délai déterminé. Contrairement aux
+                autres modes, il n'y a pas d'objectifs tels que la pose de
+                bombes ou le sauvetage d'otages ; tout est une question de
+                prouesses au combat.
+              </p>
+            </article>
 
-        <!--  PARTIE 3 Wingman -->
-        <div class="sous-titre upp bold">
-          <h3>Wingman</h3>
-        </div>
-        <article class="text">
-          <p class="indent">
-            Le mode CS2 Wingman se distingue par son format 2v2, différent de la
-            configuration traditionnelle 5v5 dans les matchs CS2 standard. Ce
-            format nécessite une combinaison de compétences individuelles et de
-            travail d'équipe. Les matchs CS2 Wingman se jouent sur des cartes
-            plus petites, se concentrant souvent sur un seul site de bombe. Ce
-            format de match CS2 Wingman offre une expérience de jeu rapide et
-            stratégique.
-          </p>
-        </article>
+<!--  PARTIE 3 Wingman -->
+            <div class="sous-titre upp bold">
+              <h3>Wingman</h3>
+            </div>
+            <article class="text">
+              <p class="indent">
+                Le mode Wingman se distingue par son format 2v2. Ce format
+                nécessite une combinaison de compétences individuelles et de
+                travail d'équipe. Les matchs Wingman se jouent sur des cartes
+                plus petites, se concentrant souvent sur un seul site de bombe.
+                Il offre une expérience de jeu rapide et stratégique.
+              </p>
+            </article>
 
-        <div class="sous-titre upp bold">
-          <h3>Course à l'armement</h3>
-        </div>
-        <article class="text">
-          <p class="indent">
-            Le mode CS2 Wingman se distingue par son format 2v2, différent de la
-            configuration traditionnelle 5v5 dans les matchs CS2 standard. Ce
-            format nécessite une combinaison de compétences individuelles et de
-            travail d'équipe. Les matchs CS2 Wingman se jouent sur des cartes
-            plus petites, se concentrant souvent sur un seul site de bombe. Ce
-            format de match CS2 Wingman offre une expérience de jeu rapide et
-            stratégique.
-          </p>
+<!--  PARTIE 4 Arms race -->
 
-
+            <div class="sous-titre upp bold">
+              <h3>Course à l'armement</h3>
+            </div>
+            <article class="text">
+              <p class="indent">
+                Le mode CS2 Wingman se distingue par son format 2v2, différent
+                de la configuration traditionnelle 5v5 dans les matchs CS2
+                standard. Ce format nécessite une combinaison de compétences
+                individuelles et de travail d'équipe. Les matchs CS2 Wingman se
+                jouent sur des cartes plus petites, se concentrant souvent sur
+                un seul site de bombe. Ce format de match CS2 Wingman offre une
+                expérience de jeu rapide et stratégique.
+              </p>
+            </article>
       </section>
     </main>
-    <!-- <footer></footer> -->
   </body>
 </html>
