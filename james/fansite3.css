@@ -36,10 +36,8 @@
   background-color: #283a8a;
   box-sizing: border-box;
   background-image: url(./images/topaccueil.png);
-
   background-position: top center;
   background-size:cover;
-
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -81,11 +79,6 @@
   text-align: center;
 
   border-bottom: 2px solid #ffd194;
-}
-
-.text-1 h3 {
-  text-align: center;
-  margin: 2em auto 1em;
 }
 
 .opus {
@@ -247,6 +240,22 @@
 }
 
 /* PAGE MAPS */
+
+.img-titre, .img-titre-2 {
+  height:100px;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-titre img {
+  width: 15em;
+}
+
+.img-titre-2 img {
+  width: 30em;
+}
 
 .all-maps {
   padding: 2em 0;
