@@ -243,18 +243,17 @@
 
 .img-titre, .img-titre-2 {
   height:100px;
-  margin-bottom: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .img-titre img {
-  width: 15em;
+  width: 30%;
 }
 
 .img-titre-2 img {
-  width: 30em;
+  width: 50%;
 }
 
 .all-maps {
