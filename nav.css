@@ -98,6 +98,7 @@ label,
   .logo {
     height: 100%;
     width: 30%;
+    align-content: center;
   }
   .logo-site {
     max-width: 50%;
@@ -105,6 +106,7 @@ label,
   .nav-bar-bg {
     width: 50%;
     height: auto;
+    align-content: center;
   }
   .nav-bar {
     height: auto;
@@ -146,8 +148,12 @@ label,
     border-radius: 5rem 5rem 0 0;
   }
   .presentation {
+    text-align: center;
+    border: none;
     border-radius: 0 0 5rem 5rem;
     margin-bottom: 1rem;
+    width: 100%;
+    padding: 2rem 0 3rem 0;
   }
 }
 
@@ -182,7 +188,11 @@ label,
     border-radius: 5rem 5rem 0 0;
   }
   .presentation {
+    text-align: center;
+    border: none;
     border-radius: 0 0 5rem 5rem;
     margin-bottom: 1rem;
+    width: 100%;
+    padding: 2rem 0 3rem 0;
   }
 }
