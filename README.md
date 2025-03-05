@@ -23,7 +23,6 @@ Les pages demandées :
 
 👤 James [@jams-sanchez](https://github.com/jams-sanchez)
 
-👤 Sandra [@sandraMassonF](https://github.com/sandraMassonF)
 
 ## 💻 Les technologies 
 
